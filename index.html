@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+<style>
+  body {
+    background-color:dimgray;
+  }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<img src="{{ url_for('static', filename='images/circles-7345110_1280.jpg') }}" height="70" width="100%">
+<h1>Title</h1>
+<a href="/page1" class="absolute-button1">Task 1</a>
+<a href="/page2" class="absolute-button2">Task 2</a>
+<a href="/page3" class="absolute-button3">Task 3</a>
+<a href="/page4" class="absolute-button4">Task 4</a>
+<p>
+    desc
+</p>
+<p2>Enter Password</p2>
+<p3>Password: <input id="passwordBox" type="password"/></p3>
+<button onclick="return checkPassword();">Click here to submit password</button>
+<p4>
+    Updates
+</p4>
+<a href="/chat" class="absolute-button5">login with google</a>
+<a href="/chat" class="absolute-button6">login with facebook</a>
+</body>
+</html>
 
